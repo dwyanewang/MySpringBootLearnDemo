@@ -6,6 +6,7 @@ import java.util.List;
 
 @Mapper
 public interface TUserMapper {
+
     @Select("select t_id as tId,t_name as tName,t_age as tAge,t_address as tAddress from t_user")
     List<TUser> listUsers();
 

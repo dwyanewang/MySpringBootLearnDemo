@@ -2,6 +2,7 @@ package com.dwyanewang.charpter02;
 
 
 public class TUser {
+
   private long tId;
   private String tName;
   private long tAge;

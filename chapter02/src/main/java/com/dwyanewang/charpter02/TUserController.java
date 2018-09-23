@@ -25,10 +25,12 @@ public class TUserController {
     public int addUser(TUser user){
         return userService.addUser(user);
     }
+
     @PostMapping("/api/updateUser")
     public void updateUser(String name,int id){
         userService.updateUserName(name,id);
     }
+
     @PostMapping("/api/deleteUser")
     public void deleteUser(int id){
         userService.deleteUser(id);

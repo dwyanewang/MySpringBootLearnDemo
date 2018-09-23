@@ -29,4 +29,5 @@ public class TUserServiceImpl implements TUserService {
     public void deleteUser(int id) {
         userMapper.deleteUser(id);
     }
+
 }
