@@ -1,7 +1,6 @@
 package com.dwyanewang.charpter02;
 
 import org.apache.ibatis.annotations.*;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 

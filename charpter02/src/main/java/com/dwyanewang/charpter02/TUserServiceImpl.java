@@ -1,6 +1,5 @@
 package com.dwyanewang.charpter02;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
