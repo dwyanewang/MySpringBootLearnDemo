@@ -1,4 +1,4 @@
-package com.dwyanewang.chapter02;
+package com.dwyanewang.charpter02;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class Chapter02ApplicationTests {
+public class Charpter02ApplicationTests {
 
     @Test
     public void contextLoads() {

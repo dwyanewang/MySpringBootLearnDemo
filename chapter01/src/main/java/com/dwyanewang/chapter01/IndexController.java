@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @author Dwyanewang
  */
-@RestController
+@Controller
 public class IndexController {
     @GetMapping("/index")
     public String index(){
